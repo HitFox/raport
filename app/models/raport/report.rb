@@ -167,7 +167,7 @@ module Raport
     end
     
     def perform!
-      ReportJob.new(id).perform
+      ReportsJob.new(id).perform
     end
 
     def enqueue!
