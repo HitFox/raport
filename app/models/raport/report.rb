@@ -1,5 +1,6 @@
 module Raport
   class Report < ActiveRecord::Base
+    include StateMachinable
 
     #
     # Constants
